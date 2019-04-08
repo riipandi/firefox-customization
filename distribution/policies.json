@@ -1,0 +1,33 @@
+{
+    "policies": {
+        "BlockAboutConfig": false,
+        "BlockAboutProfiles": false,
+        "BlockAboutSupport": false,
+        "DisableSetDesktopBackground": true,
+        "DisableMasterPasswordCreation": true,
+        "DisableFeedbackCommands": true,
+        "DisableBuiltinPDFViewer": true,
+        "DisableDeveloperTools": false,
+        "DisableFirefoxScreenshots": true,
+        "DisableFirefoxAccounts": false,
+        "DisableFirefoxStudies": true,
+        "DisablePocket": true,
+        "DisableTelemetry": true,
+        "DisplayBookmarksToolbar": true,
+        "DontCheckDefaultBrowser": true,
+        "HardwareAcceleration": true,
+        "NoDefaultBookmarks": true,
+        "OfferToSaveLogins": false,
+        "DisableAppUpdate": false,
+        "Permissions": {
+            "Location": {
+                "BlockNewRequests": false,
+                "Locked": false
+            },
+            "Notifications": {
+                "BlockNewRequests": true,
+                "Locked": true
+            }
+        }
+    }
+}

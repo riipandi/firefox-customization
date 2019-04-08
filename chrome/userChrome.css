@@ -1,0 +1,102 @@
+#context_selectAllTabs,
+#context_bookmarkSelectedTabs,
+#context_bookmarkTab,
+#context_reopenInContainer,
+#context_moveTabOptions,
+#context_openTabInWindow,
+#context_sendTabToDevice_separator,
+#context_sendTabToDevice,
+#context_sendTabToDevice + menuseparator,
+#context_reloadAllTabs,
+#context_bookmarkAllTabs,
+#context_closeTab,
+#context-navigation,
+#context-back,
+#context-forward,
+#context-reload,
+#context-stop,
+#context-bookmarkpage,
+#context-sep-navigation,
+#page-menu-separator,
+#context-openlink,
+#context-sep-open,
+#context-savelinktopocket,
+#context-copyemail,
+#context-video-fullscreen,
+#context-leave-dom-fullscreen,
+#context-media-sep-commands,
+#context-reloadimage,
+#context-viewimage,
+#context-viewvideo,
+#context-copyimage-contents,
+#context-sendimage,
+#context-sendvideo,
+#context-sendaudio,
+#context-savepage,
+#context-pocket,
+#context-sep-sendpagetodevice,
+#context-sendpagetodevice,
+#context-sep-viewbgimage,
+#context-viewbgimage,
+#context-sep-sendlinktodevice,
+#context-sendlinktodevice
+#inspect-separator,
+#context-inspect,
+#pageAction-panel-addSearchEngine,
+#pageAction-panel-sendToDevice,
+#leave_this_dummy_here
+{
+  display: none !important;
+}
+
+#context-copylink:not([hidden]) ~ #context-copy[hidden] ~ #context-searchselect {
+  visibility: collapse !important;
+}
+
+#nav-bar {
+  -moz-box-ordinal-group: 1 !important;
+  border-top-width: 0 !important;
+}
+
+#urlbar, #urlbar:hover { box-shadow: none !important; }
+#PersonalToolbar { padding: 6px 2px !important; }
+
+/*** main-hamburger.css ***/
+#appMenuRestoreLastSession,                        /* Restore Previous Session */
+#appMenuRestoreLastSession + toolbarseparator,     /**** Separator ****/
+#appMenu-zoom-controls,                            /* Zoom */
+#appMenu-zoomReduce-button,                            /* Zoom out */
+#appMenu-zoomReset-button,                             /* Reset zoom level */
+#appMenu-zoomEnlarge-button,                           /* Zoom in */
+#appMenu-zoomEnlarge-button + toolbarseparator,        /* Vertical Separator */
+#appMenu-fullscreen-button,                            /* Display the window in fullscreen */
+#appMenu-zoom-controls + toolbarseparator,         /**** Separator ****/
+#appMenu-edit-controls,                            /* Edit */
+#appMenu-cut-button,                                   /* Cut */
+#appMenu-copy-button,                                  /* Copy */
+#appMenu-paste-button,                                 /* Paste */
+#appMenu-edit-controls,                            /**** Separator ****/
+#appMenu-library-button,                           /* Library */
+#appMenu-library-bookmarks-button,                     /* Bookmarks */
+#appMenu-library-pocket-button,                        /* View Pocket List */
+#appMenu-library-history-button,                       /* History */
+#appMenu-library-downloads-button,                     /* Downloads */
+#appMenu-library-downloads-show-button,                    /* Show Downloads Folder */
+#appMenu-library-downloads-show-button + toolbarseparator, /**** Separator ****/
+#appMenu-library-remotetabs-button,                    /* Synced Tabs */
+#appMenu-library-screenshots,                          /* Screenshots */
+#appMenu-library-screenshots + toolbarseparator,       /**** Separator ****/
+#appMenu-library-screenshots ~ label.subview-header,   /* Recent Highlights label */
+#appMenu-library-recentHighlights,                     /* Recent Highlights items */
+#appMenu-customize-button,                         /* Customize… */
+#appMenu-open-file-button,                         /* Open File… */
+#appMenu-save-file-button,                         /* Save Page As… */
+#appMenu-find-button,                              /* Find in This Page… */
+#appMenu-more-button,                              /* More */
+#leave_this_dummy_here
+{ display:none !important; }
+
+#context-media-eme-learnmore + menuseparator,            /************ Separator ************/
+#ublock0_raymondhill_net_uBlock0-blockElement,           /* Block element (old) */
+#ublock0_raymondhill_net-menuitem-_uBlock0-blockElement  /* Block element (new) */
+{ display: none !important; }
